@@ -118,6 +118,7 @@ cc_binary {
     ],
 
     static_libs: [
+        "libc++fs",
         "librecovery",
         "librecovery_ui_default",
     ],
@@ -128,6 +129,8 @@ cc_binary {
         "minadbd",
         "mke2fs.conf.recovery",
         "mke2fs.recovery",
+        "mkshrc.recovery",
+        "reboot.recovery",
         "recovery_deps",
     ],
 }
